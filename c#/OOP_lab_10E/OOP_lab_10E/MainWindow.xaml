@@ -1,0 +1,56 @@
+﻿<Window x:Class="OOP_lab_10E.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OOP_lab_10E"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Window.DataContext>
+        <local:ViewModel/>
+    </Window.DataContext>
+    <Grid>
+        <ListBox Grid.Column="0" ItemsSource="{Binding prods}"
+                 SelectedItem="{Binding SelectedProd}" HorizontalAlignment="Left" Width="284" Margin="0,34,0,0">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Margin="5">
+                        <Label HorizontalAlignment="Left" FontSize="15" Content="Продукт"></Label>
+                        <TextBlock FontSize="18" Text="{Binding Path=VID}" />
+                        <TextBlock FontSize="18" Text="{Binding Path=Naimemovanie}" />
+                        <TextBlock FontSize="18" Text="{Binding Path=Articul}" />
+                        <TextBlock FontSize="18" Text="{Binding Path=Price}" />
+                        <TextBlock FontSize="18" Text="{Binding Path=Count}" />
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <Button Command="{Binding AddCommand}" Content="добавить" HorizontalAlignment="Left" Height="50" Margin="284,369,0,0" VerticalAlignment="Top" Width="76"/>
+        <Button Command="{Binding DeletCommand}" Content="удалить" HorizontalAlignment="Left" Height="50" Margin="360,369,0,0" VerticalAlignment="Top" Width="76"/>
+        <Button Command="{Binding Update}" Content="изменить" HorizontalAlignment="Left" Height="50" Margin="436,369,0,0" VerticalAlignment="Top" Width="72"/>
+        <ListBox Grid.Column="0" ItemsSource="{Binding prodsS}"
+            SelectedItem="{Binding SelectedProd}" HorizontalAlignment="Left" Width="284" Margin="508,34,0,0" >
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Margin="5">
+                        <TextBlock FontSize="18" Text="{Binding VID}" />
+                        <TextBlock FontSize="18" Text="{Binding Naimemovanie}" />
+                        <TextBlock FontSize="18" Text="{Binding Articul}" />
+                        <TextBlock FontSize="18" Text="{Binding Price}" />
+                        <TextBlock FontSize="18" Text="{Binding Count}" />
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <Label Content="Товары" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Margin="0,3,0,0" VerticalAlignment="Top" Height="31" Width="284"/>
+        <Label Content="Склад" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Margin="508,3,0,0" VerticalAlignment="Top" Height="31" Width="284"/>
+        <!--<StackPanel DataContext="{Binding SelectedProd}" HorizontalAlignment="Left" Height="335" Margin="289,34,0,0" VerticalAlignment="Top" Width="214">-->
+        <TextBox Height="34" Text="{Binding Col}" Margin="284,330,284,55"></TextBox>
+        <Label Content="Количество" HorizontalAlignment="Left" Height="38" Margin="289,292,0,0" VerticalAlignment="Top" Width="214" RenderTransformOrigin="0.667,0.579"/>
+        <TextBox HorizontalAlignment="Left" Height="43" Margin="284,249,0,0" TextWrapping="Wrap" Text="{Binding Price}" VerticalAlignment="Top" Width="224"/>
+        <Label Content="Цена" HorizontalAlignment="Left" Height="38" Margin="284,211,0,0" VerticalAlignment="Top" Width="214" RenderTransformOrigin="0.667,0.579"/>
+
+        <!--</StackPanel>-->
+
+    </Grid>
+</Window>

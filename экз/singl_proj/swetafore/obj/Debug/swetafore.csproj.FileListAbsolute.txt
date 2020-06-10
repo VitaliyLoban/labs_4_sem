@@ -1,0 +1,10 @@
+E:\лабы 4сем\экз\singl_proj\swetafore\bin\Debug\swetafore.exe.config
+E:\лабы 4сем\экз\singl_proj\swetafore\bin\Debug\swetafore.exe
+E:\лабы 4сем\экз\singl_proj\swetafore\bin\Debug\swetafore.pdb
+E:\лабы 4сем\экз\singl_proj\swetafore\obj\Debug\swetafore.csprojResolveAssemblyReference.cache
+E:\лабы 4сем\экз\singl_proj\swetafore\obj\Debug\swetafore.Form1.resources
+E:\лабы 4сем\экз\singl_proj\swetafore\obj\Debug\swetafore.Properties.Resources.resources
+E:\лабы 4сем\экз\singl_proj\swetafore\obj\Debug\swetafore.csproj.GenerateResource.Cache
+E:\лабы 4сем\экз\singl_proj\swetafore\obj\Debug\swetafore.csproj.CoreCompileInputs.cache
+E:\лабы 4сем\экз\singl_proj\swetafore\obj\Debug\swetafore.exe
+E:\лабы 4сем\экз\singl_proj\swetafore\obj\Debug\swetafore.pdb

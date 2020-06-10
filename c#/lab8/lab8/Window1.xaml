@@ -1,0 +1,43 @@
+﻿<Window x:Class="lab8.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab8"
+        mc:Ignorable="d"
+        Title="Window1" Height="500" Width="800" Loaded="Window_Loaded">
+    <Window.Resources>
+        <CollectionViewSource x:Key="studentsViewSource" d:DesignSource="{d:DesignInstance {x:Type local:Students}, CreateList=True}"/>
+        <CollectionViewSource x:Key="hostelViewSource" d:DesignSource="{d:DesignInstance {x:Type local:Hostel}, CreateList=True}"/>
+    </Window.Resources>
+    <Grid>
+        <Grid DataContext="{StaticResource studentsViewSource}">
+            <DataGrid x:Name="studentsDataGrid" AutoGenerateColumns="False" EnableRowVirtualization="True" ItemsSource="{Binding}" Margin="0,0,0,316" RowDetailsVisibilityMode="VisibleWhenSelected">
+                <DataGrid.Columns>
+                    <DataGridTextColumn x:Name="ageColumn" Binding="{Binding Age}" Header="Age" Width="184"/>
+                    <DataGridTextColumn x:Name="idColumn" Binding="{Binding Id}" Header="Id" Width="200"/>
+                    <DataGridTextColumn x:Name="nameColumn" Binding="{Binding Name}" Header="Name" Width="200"/>
+                    <DataGridTextColumn x:Name="s_nameColumn" Binding="{Binding S_name}" Header="S name" Width="200"/>
+                </DataGrid.Columns>
+            </DataGrid>
+            <Button Name="ad_st" Content="Add" HorizontalAlignment="Left" Height="45" Margin="45,192,0,0" VerticalAlignment="Top" Width="148" Click="ad_st_Click"/>
+            <Button Name="del_st" Content="Delete" HorizontalAlignment="Left" Height="45" Margin="237,192,0,0" VerticalAlignment="Top" Width="148" Click="del_st_Click"/>
+            <Button Name="ch_st" Content="Change" HorizontalAlignment="Left" Height="45" Margin="437,192,0,0" VerticalAlignment="Top" Width="148" Click="ch_st_Click"/>
+        </Grid>
+        <Grid DataContext="{StaticResource hostelViewSource}">
+            <DataGrid x:Name="hostelDataGrid" AutoGenerateColumns="False" EnableRowVirtualization="True" ItemsSource="{Binding}" Margin="0,269,579,0" RowDetailsVisibilityMode="VisibleWhenSelected">
+                <DataGrid.Columns>
+                    <DataGridTextColumn x:Name="idColumn1" Binding="{Binding Id}" Header="Id" Width="50"/>
+                    <DataGridTextColumn x:Name="nameColumn1" Binding="{Binding Name}" Header="Name" Width="155"/>
+                </DataGrid.Columns>
+            </DataGrid>
+            <Button Name="ad_host" Content="Add" HorizontalAlignment="Left" Height="45" Margin="247,269,0,0" VerticalAlignment="Top" Width="148" Click="ad_host_Click"/>
+            <Button Name="del_host" Content="Delete" HorizontalAlignment="Left" Height="45" Margin="247,343,0,0" VerticalAlignment="Top" Width="148" Click="del_host_Click"/>
+            <Button Name="ch_host" Content="Change" HorizontalAlignment="Left" Height="45" Margin="247,414,0,0" VerticalAlignment="Top" Width="148"/>
+            <Frame NavigationUIVisibility="Hidden" Name="fr"  HorizontalAlignment="Right" Height="200"  VerticalAlignment="Bottom" Width="350"/>
+            <Button Visibility="Hidden" Content="Sort 1" HorizontalAlignment="Left" Height="45" Margin="615,192,0,0" VerticalAlignment="Top" Width="59" Click="Button_Click"/>
+            <Button Visibility="Hidden" Content="Sort 2" HorizontalAlignment="Left" Height="45" Margin="698,192,0,0" VerticalAlignment="Top" Width="53" Click="Button_Click_1"/>
+
+        </Grid>
+    </Grid>
+</Window>

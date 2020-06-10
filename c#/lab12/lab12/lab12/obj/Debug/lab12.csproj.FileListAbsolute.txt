@@ -1,0 +1,17 @@
+E:\лабы 4сем\c#\lab12\lab12\lab12\bin\Debug\lab12.exe.config
+E:\лабы 4сем\c#\lab12\lab12\lab12\bin\Debug\lab12.exe
+E:\лабы 4сем\c#\lab12\lab12\lab12\bin\Debug\lab12.pdb
+E:\лабы 4сем\c#\lab12\lab12\lab12\obj\Debug\lab12.csprojResolveAssemblyReference.cache
+E:\лабы 4сем\c#\lab12\lab12\lab12\obj\Debug\MainWindow.g.cs
+E:\лабы 4сем\c#\lab12\lab12\lab12\obj\Debug\Window1.g.cs
+E:\лабы 4сем\c#\lab12\lab12\lab12\obj\Debug\App.g.cs
+E:\лабы 4сем\c#\lab12\lab12\lab12\obj\Debug\lab12_MarkupCompile.cache
+E:\лабы 4сем\c#\lab12\lab12\lab12\obj\Debug\lab12_MarkupCompile.lref
+E:\лабы 4сем\c#\lab12\lab12\lab12\obj\Debug\MainWindow.baml
+E:\лабы 4сем\c#\lab12\lab12\lab12\obj\Debug\Window1.baml
+E:\лабы 4сем\c#\lab12\lab12\lab12\obj\Debug\lab12.g.resources
+E:\лабы 4сем\c#\lab12\lab12\lab12\obj\Debug\lab12.Properties.Resources.resources
+E:\лабы 4сем\c#\lab12\lab12\lab12\obj\Debug\lab12.csproj.GenerateResource.Cache
+E:\лабы 4сем\c#\lab12\lab12\lab12\obj\Debug\lab12.csproj.CoreCompileInputs.cache
+E:\лабы 4сем\c#\lab12\lab12\lab12\obj\Debug\lab12.exe
+E:\лабы 4сем\c#\lab12\lab12\lab12\obj\Debug\lab12.pdb

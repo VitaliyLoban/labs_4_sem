@@ -1,0 +1,7 @@
+﻿  stdafx.cpp
+  subsetGen.cpp
+  Combi.cpp
+e:\лабы 4сем\матпрога\subsetgen\subsetgen\combi.cpp(41): warning C4334: <<: результат 32-разрядного смещения неявно преобразуется в 64-разрядное значение (предполагалось 64-разрядное смещение?)
+  Создание кода...
+  subsetGen.vcxproj -> E:\лабы 4сем\матпрога\subsetGen\Debug\subsetGen.exe
+  subsetGen.vcxproj -> E:\лабы 4сем\матпрога\subsetGen\Debug\subsetGen.pdb (Partial PDB)

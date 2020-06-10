@@ -1,0 +1,15 @@
+﻿<Window x:Class="prototype.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:prototype"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TextBlock Name="t1" HorizontalAlignment="Left" Height="166" Margin="41,52,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="132"/>
+        <Button Name="Cr" Content="Create" HorizontalAlignment="Left" Height="32" Margin="225,52,0,0" VerticalAlignment="Top" Width="90" Click="Cr_Click"/>
+        <Button Name="Cl" Content="Clone" HorizontalAlignment="Left" Height="32" Margin="225,107,0,0" VerticalAlignment="Top" Width="90" Click="Cl_Click"/>
+
+    </Grid>
+</Window>

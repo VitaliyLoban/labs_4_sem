@@ -1,0 +1,19 @@
+﻿<Window x:Class="Entity.Window7"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Entity"
+        mc:Ignorable="d"
+        Title="Window7" Height="313" Width="309">
+    <Grid>
+        <TextBlock Text="Update subject" FontSize="25" HorizontalAlignment="Center" VerticalAlignment="Top" Height="38" Width="292" TextAlignment="Center"/>
+        <TextBlock Text="Enter subject name" HorizontalAlignment="Left" Height="28" Margin="7,32,0,0" VerticalAlignment="Top" Width="139"/>
+        <TextBox Name="tbName" Margin="8,75,155,180"/>
+        <TextBlock Text="Day name" HorizontalAlignment="Left" Height="28" Margin="7,107,0,0" VerticalAlignment="Top" Width="139"/>
+        <TextBox x:Name="tbDayname" HorizontalAlignment="Left" Height="26" Margin="4,140,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="138"/>
+        <TextBlock Text="Lecture hall number" HorizontalAlignment="Left" Height="28" Margin="4,171,0,0" VerticalAlignment="Top" Width="139"/>
+        <TextBox x:Name="tbLectureHallNumber" HorizontalAlignment="Left" Height="26" Margin="4,199,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="140"/>
+        <Button Content="Update" HorizontalAlignment="Left" Height="35" Margin="164,233,0,0" VerticalAlignment="Top" Width="118" Click="Button_Click" Background="White" FontSize="24" FontWeight="Bold"/>
+    </Grid>
+</Window>

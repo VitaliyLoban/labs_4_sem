@@ -1,0 +1,16 @@
+E:\лабы 4сем\экз\singl_proj\ado_net\bin\Debug\ado_net.exe.config
+E:\лабы 4сем\экз\singl_proj\ado_net\bin\Debug\ado_net.exe
+E:\лабы 4сем\экз\singl_proj\ado_net\bin\Debug\ado_net.pdb
+E:\лабы 4сем\экз\singl_proj\ado_net\obj\Debug\ado_net.csprojResolveAssemblyReference.cache
+E:\лабы 4сем\экз\singl_proj\ado_net\obj\Debug\MainWindow.g.cs
+E:\лабы 4сем\экз\singl_proj\ado_net\obj\Debug\App.g.cs
+E:\лабы 4сем\экз\singl_proj\ado_net\obj\Debug\ado_net_MarkupCompile.cache
+E:\лабы 4сем\экз\singl_proj\ado_net\obj\Debug\ado_net_MarkupCompile.lref
+E:\лабы 4сем\экз\singl_proj\ado_net\obj\Debug\MainWindow.baml
+E:\лабы 4сем\экз\singl_proj\ado_net\obj\Debug\ado_net.g.resources
+E:\лабы 4сем\экз\singl_proj\ado_net\obj\Debug\ado_net.Properties.Resources.resources
+E:\лабы 4сем\экз\singl_proj\ado_net\obj\Debug\ado_net.csproj.GenerateResource.Cache
+E:\лабы 4сем\экз\singl_proj\ado_net\obj\Debug\ado_net.csproj.CoreCompileInputs.cache
+E:\лабы 4сем\экз\singl_proj\ado_net\obj\Debug\ado_net.exe
+E:\лабы 4сем\экз\singl_proj\ado_net\obj\Debug\ado_net.pdb
+E:\лабы 4сем\экз\singl_proj\ado_net\obj\Debug\GeneratedInternalTypeHelper.g.cs

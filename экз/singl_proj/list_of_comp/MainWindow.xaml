@@ -1,0 +1,19 @@
+﻿<Window x:Class="list_of_comp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:list_of_comp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525" Loaded="Window_Loaded">
+    <Grid>
+        <DataGrid HorizontalAlignment="Left" AutoGenerateColumns="False"  Name="list1" Height="221" Margin="31,44,0,0" VerticalAlignment="Top" Width="434">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Monitor" Binding="{Binding Path=Monitor}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Processor" Binding="{Binding Path=Processor}"></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        
+
+    </Grid>
+</Window>

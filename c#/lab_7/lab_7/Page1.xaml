@@ -1,0 +1,45 @@
+﻿ <Page x:Class="lab_7.Page1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:lab_7"
+      mc:Ignorable="d" 
+      d:DesignHeight="323" d:DesignWidth="700"
+      Title="Page1">
+
+    <Grid>
+        <Label Content="Имя лектора" HorizontalAlignment="Left" Height="23" Margin="10,18,0,0" VerticalAlignment="Top" Width="87"/>
+        <Label Content="Название " HorizontalAlignment="Left" Height="23" Margin="10,46,0,0" VerticalAlignment="Top" Width="87"/>
+        <Label Content="Курс" HorizontalAlignment="Left" Height="23" Margin="10,74,0,0" VerticalAlignment="Top" Width="87"/>
+        <Label Content="Семестр" HorizontalAlignment="Left" Height="23" Margin="10,108,0,0" VerticalAlignment="Top" Width="87"/>
+        <Label Content="Специальность" HorizontalAlignment="Left" Height="23" Margin="10,136,0,0" VerticalAlignment="Top" Width="87"/>
+        <Label Content="кол-во лекций" HorizontalAlignment="Left" Height="23" Margin="10,170,0,0" VerticalAlignment="Top" Width="133"/>
+        <Label Content="кол-во лаб" HorizontalAlignment="Left" Height="23" Margin="10,205,0,0" VerticalAlignment="Top" Width="133"/>
+        <Label Content="кол-во студентов" HorizontalAlignment="Left" Height="23" Margin="10,235,0,0" VerticalAlignment="Top" Width="133"/>
+        <Label Content="Кафедра" HorizontalAlignment="Left" Height="23" Margin="158,138,0,0" VerticalAlignment="Top" Width="133"/>
+        <Label Content="кАбинет" HorizontalAlignment="Left" Height="23" Margin="158,171,0,0" VerticalAlignment="Top" Width="133"/>
+
+
+        <TextBox Name="lect1"  Width="100" HorizontalAlignment="left" VerticalAlignment="Top" Margin="158,129,0,0" PreviewTextInput="lect1_PreviewTextInput" ></TextBox>
+        <TextBox Name="namedisc"  Width="100" HorizontalAlignment="left" VerticalAlignment="Top" Margin="10,66,0,0" PreviewTextInput="namedisc_PreviewTextInput" ></TextBox>
+        <TextBox Name="kyrs"  Width="100" HorizontalAlignment="left" VerticalAlignment="Top" Margin="10,96,0,0" PreviewTextInput="kyrs_PreviewTextInput" ></TextBox>
+        <TextBox Name="sem"  Width="100" HorizontalAlignment="left" VerticalAlignment="Top" Margin="10,126,0,0" PreviewTextInput="sem_PreviewTextInput" ></TextBox>
+        <TextBox Name="spec"  Width="100" HorizontalAlignment="left" VerticalAlignment="Top" Margin="10,156,0,0" PreviewTextInput="spec_PreviewTextInput" ></TextBox>
+        <TextBox Name="numlect"  Width="100" HorizontalAlignment="left" VerticalAlignment="Top" Margin="10,193,0,0" PreviewTextInput="numlect_PreviewTextInput" ></TextBox>
+        <TextBox Name="numlab"  Width="100" HorizontalAlignment="left" VerticalAlignment="Top" Margin="10,223,0,0" PreviewTextInput="numlab_PreviewTextInput" ></TextBox>
+        <TextBox Name="numstud"  Width="100" HorizontalAlignment="left" VerticalAlignment="Top" Margin="10,253,0,0" PreviewTextInput="numstud_PreviewTextInput" ></TextBox>
+
+        <TextBox Name="pulpit" VerticalAlignment="Top" Margin="158,159,0,0" HorizontalAlignment="Left" Width="100" PreviewTextInput="pulpit_PreviewTextInput" />
+        <TextBox Name="audit"  Width="100" HorizontalAlignment="left" VerticalAlignment="Top" Margin="158,189,0,0" PreviewTextInput="audit_PreviewTextInput" ></TextBox>
+        <Button Content="Add discipline" HorizontalAlignment="Left" Margin="10,278,0,0" Width="100" Click="Button_Click" Height="18" VerticalAlignment="Top"/>
+        <DataGrid Name="Datagrid1" HorizontalAlignment="Left" Height="147" Margin="330,0,0,0" VerticalAlignment="Top" Width="370"/>
+        <DataGrid x:Name="Datagrid2" HorizontalAlignment="Left" Height="163" Margin="330,159,0,0" VerticalAlignment="Top" Width="370"/>
+        <TextBox x:Name="lect"  Width="100" HorizontalAlignment="left" VerticalAlignment="Top" Margin="10,36,0,0" PreviewTextInput="lect_PreviewTextInput" />
+        <Label Content="Добавить лектора" HorizontalAlignment="Left" Height="30" Margin="158,87,0,0" VerticalAlignment="Top" Width="116"/>
+        <Label Content="Добавить дисциплину" HorizontalAlignment="Left" Height="26" VerticalAlignment="Top" Width="143"/>
+        <Button Content="Add lector" HorizontalAlignment="Left" Height="18" Margin="158,223,0,0" VerticalAlignment="Top" Width="100" Click="Button_Click_1"/>
+        <Label Content="Имя лектора" HorizontalAlignment="Left" Height="23" Margin="158,108,0,0" VerticalAlignment="Top" Width="87"/>
+
+    </Grid>
+</Page>

@@ -1,0 +1,106 @@
+﻿<Window x:Class="lab4_5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab4_5"
+        mc:Ignorable="d"
+        Title="window 1" Height="350" Width="900"
+        MinHeight="300"
+        MinWidth="850"
+        Cursor="Hand" Icon="E:\лабы 4сем\c#\lab4_5\lab4_5\Значок1.ico" Closed="Window_Closed">
+    <Window.CommandBindings>
+        <CommandBinding Command="New" CanExecute="MenuItem_Click_2" ></CommandBinding>
+        <CommandBinding Command="Save" CanExecute="MenuItem_Click_1"></CommandBinding>
+        <CommandBinding Command="Open" CanExecute="MenuItem_Click"></CommandBinding>
+    </Window.CommandBindings>
+    <Window.Resources>
+        <Style TargetType="local:UserControl1">
+            <Style.Triggers>
+                <EventTrigger RoutedEvent="MouseEnter">
+                    <EventTrigger.Actions>
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation Storyboard.TargetProperty="width" Duration="0:0:0.2" To="80" AutoReverse="True"/>
+                                <ColorAnimation Storyboard.TargetProperty="borderbrush" Duration="0:0:0.2" To="Green" AutoReverse="True"/>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger.Actions>
+                </EventTrigger>
+                
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+    <Grid>
+
+        <Menu VerticalAlignment="Top" Margin="0,0,102,0" Height="32"   >
+            <MenuItem Header="{DynamicResource file1}" Name="file1" Width="45" Template="{DynamicResource MenuItemControlTemplate1}">
+                <MenuItem   Header="{DynamicResource new1}" Click="MenuItem_Click_2" Name="new1" ></MenuItem>
+                <MenuItem Header="{DynamicResource save1}" Click="MenuItem_Click_1" Name="save1"></MenuItem>
+                <MenuItem Header="{DynamicResource open1}" Click="MenuItem_Click" Name="open1">
+                   
+                </MenuItem>
+            </MenuItem>
+
+            <MenuItem Header="{DynamicResource font1}" Name="font1" Width="60" IsEnabled="False"/>
+            <ComboBox Width="100" Name="font" SelectionChanged="font_chng" ItemsSource="{Binding Source={x:Static Fonts.SystemFontFamilies}}">
+                <!--<ComboBoxItem>Arial</ComboBoxItem>
+                <ComboBoxItem>Times New Roman</ComboBoxItem>
+                <ComboBoxItem>Verdana</ComboBoxItem>
+                <ComboBoxItem>Tahoma</ComboBoxItem>-->
+            </ComboBox>
+            <Slider Name="wid" Width="69" Minimum="8" Maximum="72" AutoToolTipPlacement="TopLeft"  ValueChanged="slider1_ValueChanged" Value="12"/>
+            <MenuItem Width="50"  Header="{DynamicResource collor}" IsEnabled="False" Name="collor"/>
+            <ComboBox Width="100" SelectedItem="1" Name="fontcolor" SelectionChanged="fontcolor_SelectionChanged">
+                <ComboBoxItem Name="it1"  Content="{DynamicResource it1}"></ComboBoxItem>
+                <ComboBoxItem Name="it2" Content="{DynamicResource it2}"></ComboBoxItem>
+                <ComboBoxItem Name="it3" Content="{DynamicResource it3}"></ComboBoxItem>
+                <ComboBoxItem Name="it4" Content="{DynamicResource it4}"></ComboBoxItem>
+            </ComboBox>
+            <ToggleButton Name="ital" FontStyle="Italic" Checked="ToggleButton_Checked" Unchecked="ToggleButton_Unchecked" Width="20" Background="{StaticResource grad}" Template="{DynamicResource ButtonBaseControlTemplate1}" >I</ToggleButton>
+            <ToggleButton Name="bol"  FontWeight="Bold" Checked="ToggleButton_Checked_1" Unchecked="ToggleButton_Unchecked_1" Width="20" Background="{DynamicResource grad}" >B</ToggleButton>
+            <ToggleButton Name="und" Checked="ToggleButton_Checked_2" Unchecked="ToggleButton_Unchecked_2" Width="20" Background="{DynamicResource grad}" >
+                <Underline>U</Underline>
+            </ToggleButton>
+            <local:UserControl1></local:UserControl1>
+            <ComboBox x:Name="sav" Width="75" SelectionChanged="sav_SelectionChanged"></ComboBox>
+
+        </Menu>
+        <ComboBox Name="tem"   Width="102" HorizontalAlignment="Right" SelectedIndex="2" SelectionChanged="tem_changed" Height="32" VerticalAlignment="top">
+            <ComboBoxItem>Positive</ComboBoxItem>
+            <ComboBoxItem>Pink</ComboBoxItem>
+            <ComboBoxItem>Gray</ComboBoxItem>
+        </ComboBox>
+        <StatusBar Margin="0,0,217,0" VerticalAlignment="Bottom">
+            <Label Width="135" Name="lab1" Content="{DynamicResource lab1}"></Label>
+            <Label Name="s_count"></Label>
+            <Label Width="135" Name="lab2" Content="{DynamicResource lab2}"></Label>
+            <Label Name="w_count"></Label>
+
+
+        </StatusBar>
+        <ComboBox Name="m_lang" Height="32"  SelectedIndex="1" SelectionChanged="m_lang_SelectionChanged" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="217" >
+            <ComboBox.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                    <GradientStop Color="#FF0C0B0B" Offset="1"/>
+                </LinearGradientBrush>
+            </ComboBox.Background>
+        </ComboBox>
+        <RichTextBox 
+                     Name="mytxt"
+                     AllowDrop="True"
+                     Margin="0,32"
+                     HorizontalContentAlignment="Center" 
+                     ScrollViewer.CanContentScroll="True"
+                     FontSize="8" VerticalScrollBarVisibility="Visible" TextChanged="mytxt_TextChanged_1" Drop="dad" Block.LineHeight="6" SelectionChanged="mytxt_SelectionChanged"   >
+            <FlowDocument>
+                <Paragraph>
+                    <Run  Name="kkk" />
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+
+
+    </Grid>
+</Window>

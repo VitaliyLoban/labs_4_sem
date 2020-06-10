@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script type="text/javascript" src="jquery-1.5.1.min.js"></script>
+    <script>
+        function ajaxfunc()
+        {
+            $.ajax({
+                tupe: "POST",
+                url: "tt.php",
+                asunc: false
+            }).done(function (kkk) {
+                $("#228").html(data);
+            })
+        }
+    </script>
+</head>
+<body>
+    <div ><button onclick="ajaxfunc()"><h2>kkk</h2></button></div><br/>
+    <div id="228"></div>
+</body>
+</html>

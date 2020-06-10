@@ -1,0 +1,7 @@
+E:\лабы 4сем\экз\1_proj\1_proj\bin\Debug\1_proj.exe.config
+E:\лабы 4сем\экз\1_proj\1_proj\bin\Debug\1_proj.exe
+E:\лабы 4сем\экз\1_proj\1_proj\bin\Debug\1_proj.pdb
+E:\лабы 4сем\экз\1_proj\1_proj\obj\Debug\1_proj.csprojResolveAssemblyReference.cache
+E:\лабы 4сем\экз\1_proj\1_proj\obj\Debug\1_proj.csproj.CoreCompileInputs.cache
+E:\лабы 4сем\экз\1_proj\1_proj\obj\Debug\1_proj.exe
+E:\лабы 4сем\экз\1_proj\1_proj\obj\Debug\1_proj.pdb

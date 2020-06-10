@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<ArrayOfDiscipline xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Discipline>
+    <litlist>
+      <name>Матем для чайников</name>
+      <author>Баслалай </author>
+      <year>100</year>
+    </litlist>
+    <lector>
+      <kafedra>ЛСХ</kafedra>
+      <FullName>Коваль А.С.</FullName>
+      <clas>228</clas>
+    </lector>
+    <name>Математика</name>
+    <semester>3</semester>
+    <kyrs>2</kyrs>
+    <specialization>ИСИТ</specialization>
+    <numberOfLections>2</numberOfLections>
+    <numberOflabs>0</numberOflabs>
+    <typeOfControls>экзамен</typeOfControls>
+    <numberOfStudents>23</numberOfStudents>
+  </Discipline>
+  <Discipline>
+    <litlist>
+      <name>Экономика наших дней</name>
+      <author>Кант</author>
+      <year>94</year>
+    </litlist>
+    <lector>
+      <kafedra>ИСИТ</kafedra>
+      <FullName>Рабцевич А.Н.</FullName>
+      <clas>228</clas>
+    </lector>
+    <name>Экономика</name>
+    <semester>2</semester>
+    <kyrs>2</kyrs>
+    <specialization>ПОИТ</specialization>
+    <numberOfLections>21</numberOfLections>
+    <numberOflabs>34</numberOflabs>
+    <typeOfControls>экзамен</typeOfControls>
+    <numberOfStudents>231</numberOfStudents>
+  </Discipline>
+  <Discipline>
+    <litlist>
+      <name>Социология</name>
+      <author>Гегель</author>
+      <year>89</year>
+    </litlist>
+    <lector>
+      <kafedra>ИСИТ</kafedra>
+      <FullName>Подручный М.В.</FullName>
+      <clas>39</clas>
+    </lector>
+    <name>Социология</name>
+    <semester>1</semester>
+    <kyrs>3</kyrs>
+    <specialization>ПОИТ</specialization>
+    <numberOfLections>12</numberOfLections>
+    <numberOflabs>34</numberOflabs>
+    <typeOfControls>экзамен</typeOfControls>
+    <numberOfStudents>2</numberOfStudents>
+  </Discipline>
+  <Discipline>
+    <litlist>
+      <name>С# основы</name>
+      <author>Смелов</author>
+      <year>85</year>
+    </litlist>
+    <lector>
+      <kafedra>ИСИТ</kafedra>
+      <FullName>Пацей Н.В.</FullName>
+      <clas>69</clas>
+    </lector>
+    <name>ООП</name>
+    <semester>4</semester>
+    <kyrs>2</kyrs>
+    <specialization>ПОИТ</specialization>
+    <numberOfLections>120</numberOfLections>
+    <numberOflabs>34</numberOflabs>
+    <typeOfControls>экзамен</typeOfControls>
+    <numberOfStudents>45</numberOfStudents>
+  </Discipline>
+  <Discipline>
+    <litlist>
+      <name>КГиГ openGl</name>
+      <author>Смелов</author>
+      <year>80</year>
+    </litlist>
+    <lector>
+      <kafedra>ИСИТ</kafedra>
+      <FullName>Лорт А.К.</FullName>
+      <clas>777</clas>
+    </lector>
+    <name>КГиГ</name>
+    <semester>4</semester>
+    <kyrs>2</kyrs>
+    <specialization>ПОИТ</specialization>
+    <numberOfLections>4</numberOfLections>
+    <numberOflabs>6</numberOflabs>
+    <typeOfControls>зачет</typeOfControls>
+    <numberOfStudents>333</numberOfStudents>
+  </Discipline>
+  <Discipline>
+    <litlist>
+      <name>КГиГ openGl</name>
+      <author>ФЫВФЫ</author>
+      <year>78</year>
+    </litlist>
+    <lector>
+      <kafedra>ИСИТ</kafedra>
+      <FullName>Лорт А.К.</FullName>
+      <clas>777</clas>
+    </lector>
+    <name>цйуйцу</name>
+    <semester>433324</semester>
+    <kyrs>2</kyrs>
+    <specialization>йуйцчу</specialization>
+    <numberOfLections>43</numberOfLections>
+    <numberOflabs>623</numberOflabs>
+    <typeOfControls>зачет2</typeOfControls>
+    <numberOfStudents>3333</numberOfStudents>
+  </Discipline>
+</ArrayOfDiscipline>

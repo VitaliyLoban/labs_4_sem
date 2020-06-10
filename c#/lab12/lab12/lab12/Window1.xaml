@@ -1,0 +1,15 @@
+﻿<Window x:Class="lab12.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab12"
+        mc:Ignorable="d"
+        Title="Window1" Height="383.505" Width="727.835">
+    <Grid Name="gr">
+        <Button Content="Clone" HorizontalAlignment="Left" Height="25" Margin="10,70,0,0" VerticalAlignment="Top" Width="83"/>
+        <Button Content="Create" HorizontalAlignment="Left" Height="25" Margin="10,40,0,0" VerticalAlignment="Top" Width="83" Click="Button_Click"/>
+        <Button Content="Add" HorizontalAlignment="Left" Height="29" Margin="10,100,0,0" VerticalAlignment="Top" Width="83" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>

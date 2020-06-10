@@ -1,0 +1,14 @@
+E:\лабы 4сем\экз\singl_proj\adapter\bin\Debug\adapter.exe.config
+E:\лабы 4сем\экз\singl_proj\adapter\bin\Debug\adapter.exe
+E:\лабы 4сем\экз\singl_proj\adapter\bin\Debug\adapter.pdb
+E:\лабы 4сем\экз\singl_proj\adapter\obj\Debug\MainWindow.g.cs
+E:\лабы 4сем\экз\singl_proj\adapter\obj\Debug\App.g.cs
+E:\лабы 4сем\экз\singl_proj\adapter\obj\Debug\adapter_MarkupCompile.cache
+E:\лабы 4сем\экз\singl_proj\adapter\obj\Debug\adapter_MarkupCompile.lref
+E:\лабы 4сем\экз\singl_proj\adapter\obj\Debug\MainWindow.baml
+E:\лабы 4сем\экз\singl_proj\adapter\obj\Debug\adapter.g.resources
+E:\лабы 4сем\экз\singl_proj\adapter\obj\Debug\adapter.Properties.Resources.resources
+E:\лабы 4сем\экз\singl_proj\adapter\obj\Debug\adapter.csproj.GenerateResource.Cache
+E:\лабы 4сем\экз\singl_proj\adapter\obj\Debug\adapter.csproj.CoreCompileInputs.cache
+E:\лабы 4сем\экз\singl_proj\adapter\obj\Debug\adapter.exe
+E:\лабы 4сем\экз\singl_proj\adapter\obj\Debug\adapter.pdb

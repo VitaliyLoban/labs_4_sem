@@ -1,0 +1,9 @@
+﻿  stdafx.cpp
+  Levenshtein.cpp
+  Laba4.cpp
+e:\лабы 4сем\матпрога\laba4\levenshtein\levenshtein\laba4.cpp(58): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+e:\лабы 4сем\матпрога\laba4\levenshtein\levenshtein\laba4.cpp(61): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+  Auxil.cpp
+  Создание кода...
+  Levenshtein.vcxproj -> E:\лабы 4сем\матпрога\Laba4\Levenshtein\Debug\Laba4.exe
+  Levenshtein.vcxproj -> E:\лабы 4сем\матпрога\Laba4\Levenshtein\Debug\Laba4.pdb (Partial PDB)

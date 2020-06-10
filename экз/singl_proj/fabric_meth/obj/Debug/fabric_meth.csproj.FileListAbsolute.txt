@@ -1,0 +1,15 @@
+E:\лабы 4сем\экз\singl_proj\fabric_meth\bin\Debug\fabric_meth.exe.config
+E:\лабы 4сем\экз\singl_proj\fabric_meth\bin\Debug\fabric_meth.exe
+E:\лабы 4сем\экз\singl_proj\fabric_meth\bin\Debug\fabric_meth.pdb
+E:\лабы 4сем\экз\singl_proj\fabric_meth\obj\Debug\fabric_meth.csprojResolveAssemblyReference.cache
+E:\лабы 4сем\экз\singl_proj\fabric_meth\obj\Debug\MainWindow.g.cs
+E:\лабы 4сем\экз\singl_proj\fabric_meth\obj\Debug\App.g.cs
+E:\лабы 4сем\экз\singl_proj\fabric_meth\obj\Debug\fabric_meth_MarkupCompile.cache
+E:\лабы 4сем\экз\singl_proj\fabric_meth\obj\Debug\fabric_meth_MarkupCompile.lref
+E:\лабы 4сем\экз\singl_proj\fabric_meth\obj\Debug\MainWindow.baml
+E:\лабы 4сем\экз\singl_proj\fabric_meth\obj\Debug\fabric_meth.g.resources
+E:\лабы 4сем\экз\singl_proj\fabric_meth\obj\Debug\fabric_meth.Properties.Resources.resources
+E:\лабы 4сем\экз\singl_proj\fabric_meth\obj\Debug\fabric_meth.csproj.GenerateResource.Cache
+E:\лабы 4сем\экз\singl_proj\fabric_meth\obj\Debug\fabric_meth.csproj.CoreCompileInputs.cache
+E:\лабы 4сем\экз\singl_proj\fabric_meth\obj\Debug\fabric_meth.exe
+E:\лабы 4сем\экз\singl_proj\fabric_meth\obj\Debug\fabric_meth.pdb

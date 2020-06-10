@@ -1,0 +1,34 @@
+﻿<Page x:Class="lab_7.Page6"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:lab_7"
+      mc:Ignorable="d" 
+      d:DesignHeight="323" d:DesignWidth="700"
+      Title="Page6">
+
+    <Grid>
+        <DataGrid Name="Datagrid1" HorizontalAlignment="Left" Height="147" Margin="330,0,0,0" VerticalAlignment="Top" Width="370"/>
+        <DataGrid x:Name="Datagrid2" HorizontalAlignment="Left" Height="163" Margin="330,159,0,0" VerticalAlignment="Top" Width="370"/>
+        <Label Content="Сортировать дисциплины по..." HorizontalAlignment="Left" Height="30" Margin="32,56,0,0" VerticalAlignment="Top" Width="181"/>
+        <ComboBox SelectedIndex="0" Name="disc_sort" HorizontalAlignment="Left" VerticalAlignment="Top" Width="163" Margin="32,91,0,0" Height="30" SelectionChanged="ComboBox_SelectionChanged">
+            <ComboBoxItem >лектору</ComboBoxItem>
+            <ComboBoxItem >названию</ComboBoxItem>
+            <ComboBoxItem >семестру</ComboBoxItem>
+            <ComboBoxItem >курсу</ComboBoxItem>
+            <ComboBoxItem >специальности</ComboBoxItem>
+            <ComboBoxItem >кол-ву лекций</ComboBoxItem>
+            <ComboBoxItem >кол-ву лаб</ComboBoxItem>
+            <ComboBoxItem >кол-ву студентов</ComboBoxItem>
+        </ComboBox>
+        <Label Content="Сортировать лекторов по..." HorizontalAlignment="Left" Height="29" Margin="32,147,0,0" VerticalAlignment="Top" Width="163"/>
+        <ComboBox SelectedIndex="0" Name="lect_sort" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="163" Margin="32,181,0,0" SelectionChanged="lect_sort_SelectionChanged">
+            <ComboBoxItem>лектору</ComboBoxItem>
+            <ComboBoxItem>кафедре</ComboBoxItem>
+            <ComboBoxItem>аудитории</ComboBoxItem>
+        </ComboBox>
+        <Button Content="Sort" HorizontalAlignment="Left" Height="46" Margin="222,130,0,0" VerticalAlignment="Top" Width="87" Click="Button_Click"/>
+
+    </Grid>
+</Page>

@@ -1,0 +1,14 @@
+E:\лабы 4сем\экз\singl_proj\list_of_comp\bin\Debug\list_of_comp.exe.config
+E:\лабы 4сем\экз\singl_proj\list_of_comp\bin\Debug\list_of_comp.exe
+E:\лабы 4сем\экз\singl_proj\list_of_comp\bin\Debug\list_of_comp.pdb
+E:\лабы 4сем\экз\singl_proj\list_of_comp\obj\Debug\MainWindow.g.cs
+E:\лабы 4сем\экз\singl_proj\list_of_comp\obj\Debug\App.g.cs
+E:\лабы 4сем\экз\singl_proj\list_of_comp\obj\Debug\list_of_comp_MarkupCompile.cache
+E:\лабы 4сем\экз\singl_proj\list_of_comp\obj\Debug\list_of_comp_MarkupCompile.lref
+E:\лабы 4сем\экз\singl_proj\list_of_comp\obj\Debug\MainWindow.baml
+E:\лабы 4сем\экз\singl_proj\list_of_comp\obj\Debug\list_of_comp.g.resources
+E:\лабы 4сем\экз\singl_proj\list_of_comp\obj\Debug\list_of_comp.Properties.Resources.resources
+E:\лабы 4сем\экз\singl_proj\list_of_comp\obj\Debug\list_of_comp.csproj.GenerateResource.Cache
+E:\лабы 4сем\экз\singl_proj\list_of_comp\obj\Debug\list_of_comp.csproj.CoreCompileInputs.cache
+E:\лабы 4сем\экз\singl_proj\list_of_comp\obj\Debug\list_of_comp.exe
+E:\лабы 4сем\экз\singl_proj\list_of_comp\obj\Debug\list_of_comp.pdb

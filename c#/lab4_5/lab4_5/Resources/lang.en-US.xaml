@@ -1,0 +1,17 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:lab4_5.Resources"
+                    xmlns:v="clr-namespace:System;assembly=mscorlib">
+    <v:String x:Key="new1">New</v:String>
+    <v:String x:Key="open1">Open</v:String>
+    <v:String x:Key="save1">Saveь</v:String>
+    <v:String x:Key="font1">Font :</v:String>
+    <v:String x:Key="it1">Yellow</v:String>
+    <v:String x:Key="it2">Black</v:String>
+    <v:String x:Key="it3">Red</v:String>
+    <v:String x:Key="it4">Green</v:String>
+    <v:String x:Key="lab1">Count of symbols:</v:String>
+    <v:String x:Key="lab2">Count of words:</v:String>
+    <v:String x:Key="collor">Color :</v:String>
+    <v:String x:Key="file1">File:</v:String>
+</ResourceDictionary>

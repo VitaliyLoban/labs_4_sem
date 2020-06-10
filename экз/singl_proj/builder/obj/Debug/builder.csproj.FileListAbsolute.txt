@@ -1,0 +1,14 @@
+E:\лабы 4сем\экз\singl_proj\builder\bin\Debug\builder.exe.config
+E:\лабы 4сем\экз\singl_proj\builder\bin\Debug\builder.exe
+E:\лабы 4сем\экз\singl_proj\builder\bin\Debug\builder.pdb
+E:\лабы 4сем\экз\singl_proj\builder\obj\Debug\MainWindow.g.cs
+E:\лабы 4сем\экз\singl_proj\builder\obj\Debug\App.g.cs
+E:\лабы 4сем\экз\singl_proj\builder\obj\Debug\builder_MarkupCompile.cache
+E:\лабы 4сем\экз\singl_proj\builder\obj\Debug\builder_MarkupCompile.lref
+E:\лабы 4сем\экз\singl_proj\builder\obj\Debug\MainWindow.baml
+E:\лабы 4сем\экз\singl_proj\builder\obj\Debug\builder.g.resources
+E:\лабы 4сем\экз\singl_proj\builder\obj\Debug\builder.Properties.Resources.resources
+E:\лабы 4сем\экз\singl_proj\builder\obj\Debug\builder.csproj.GenerateResource.Cache
+E:\лабы 4сем\экз\singl_proj\builder\obj\Debug\builder.csproj.CoreCompileInputs.cache
+E:\лабы 4сем\экз\singl_proj\builder\obj\Debug\builder.exe
+E:\лабы 4сем\экз\singl_proj\builder\obj\Debug\builder.pdb

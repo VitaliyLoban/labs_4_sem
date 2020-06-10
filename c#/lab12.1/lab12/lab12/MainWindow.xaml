@@ -1,0 +1,23 @@
+﻿<Window x:Class="lab12.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab12"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="730" KeyDown="Window_KeyDown">
+    <Grid Name="gr">
+        <Button Content="Singleton" HorizontalAlignment="Left" Height="25" Margin="10,40,0,0" VerticalAlignment="Top" Width="83" Click="Button_Click_4"/>
+        <Button Content="Create" HorizontalAlignment="Left" Height="25" Margin="10,10,0,0" VerticalAlignment="Top" Width="83" Click="Button_Click"/>
+        <Button Content="Find" HorizontalAlignment="Left" Height="29" Margin="10,112,0,0" VerticalAlignment="Top" Width="83" Click="Button_Click_1"/>
+        <CheckBox Name="f1" Content="Круг" HorizontalAlignment="Left" Height="17" Margin="20,156,0,0" VerticalAlignment="Top" Width="73"/>
+        <CheckBox Name="f2" Content="Овал" HorizontalAlignment="Left" Height="17" Margin="20,178,0,0" VerticalAlignment="Top" Width="73"/>
+        <Button Content="add" HorizontalAlignment="Left" Height="21" Margin="20,200,0,0" VerticalAlignment="Top" Width="52" Click="Button_Click_2"/>
+        <Button Content="Clone" HorizontalAlignment="Left" Height="27" Margin="10,233,0,0" VerticalAlignment="Top" Width="83" Click="Button_Click_3"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="27" Margin="10,265,0,0" VerticalAlignment="Top" Width="83" Click="Button_Click_5"/>
+        <TextBox HorizontalAlignment="Left" Name="find"  Height="26" Margin="10,81,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="83"/>
+        <Button Content="Save" HorizontalAlignment="Left" Height="28" Margin="10,297,0,0" VerticalAlignment="Top" Width="83" Click="Button_Click_6"/>
+        <Button Content="Refresh" HorizontalAlignment="Left" Height="29" Margin="10,330,0,0" VerticalAlignment="Top" Width="83" Click="Button_Click_7"/>
+
+    </Grid>
+</Window>
